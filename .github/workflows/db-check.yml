@@ -10,9 +10,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Check files
+        run: |
+          pwd
+          ls -la
+          ls -la db/
+          git ls-files db/
+
       - name: Setup PostgreSQL
         run: bash db/setup.sh
 
       - name: Display students
         run: PGPASSWORD=postgres psql -h localhost -U postgres -d tp -c "SELECT * FROM students;"
-
