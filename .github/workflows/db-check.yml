@@ -1,6 +1,6 @@
 name: Database Check
 
-on: [push]
+on: push
 
 jobs:
   db:
