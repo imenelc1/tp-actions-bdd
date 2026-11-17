@@ -1,0 +1,10 @@
+{
+    "name": "tp/students-app",
+    "description": "Gestion des étudiants avec PostgreSQL",
+    "require": {
+        "php": "^8.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}
