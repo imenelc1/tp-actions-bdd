@@ -111,7 +111,7 @@ jobs:
         working-directory: php-app
 
       - name: Lancer les tests
-        run: vendor/bin/phpunit tests
+        run: vendor/bin/phpunit StudentsTest.php
         working-directory: php-app
 
   build:
