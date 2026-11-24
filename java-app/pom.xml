@@ -31,7 +31,6 @@
 
     <build>
         <sourceDirectory>${project.basedir}</sourceDirectory>
-
         <testSourceDirectory>${project.basedir}</testSourceDirectory>
 
         <plugins>
@@ -42,7 +41,6 @@
                 <configuration>
                     <includes>
                         <include>Students.java</include>
-                        <include>StudentsTest.java</include>
                     </includes>
                     <testIncludes>
                         <testInclude>StudentsTest.java</testInclude>
